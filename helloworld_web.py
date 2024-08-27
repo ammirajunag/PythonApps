@@ -9,7 +9,7 @@ def hello_world():
     for i in range(5):
         num += 1
         print('Hello, World!' + str(num))
-        print(num)
+        return print(num)
     
 
 if __name__ == '__main__':
