@@ -8,7 +8,7 @@ def hello_world():
     num = 0
     for i in range(5):
         num += 1
-        return 'Hello, World!' + str(num)
+        print('Hello, World!' + str(num))
         print(num)
     
 
